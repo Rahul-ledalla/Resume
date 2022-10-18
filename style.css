@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #6bbed4;
+  --secondary-color: #ff4500;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 74%);
+  font-weight: 500;
+}
+.content-box a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.section {
+  border: 0.5px solid #333;
+  padding: 0px 15px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 1px rgba(133, 126, 133, 0.8);
+}
+.main-stack {
+  display: flex;
+  gap: 30px;
+}
+.clearfix {
+  clear: both;
+}
+
+.main {
+  height: 1165px;
+  width: 800px;
+  background-color: white;
+  box-shadow: 5px 7px 15px 5px #b9b6b6;
+  margin: 0px auto;
+}
+
+.top-section {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.p1 {
+  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 10px;
+  font-style: italic;
+}
+.col-div-4 {
+  width: 35%;
+  float: left;
+}
+.col-div-8 {
+  width: 62%;
+  float: left;
+}
+.line {
+  border: 1px solid var(--primary-color);
+  height: 1080px;
+  width: 0.5px;
+  margin-top: 30px;
+  float: left;
+  margin-left: 5px;
+}
+.content-box {
+  padding: 20px;
+}
+
+.head {
+  font-size: 16px;
+  text-transform: uppercase;
+  font: weight 600px;
+  border: 1px solid black;
+  background-color: #3994be;
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+.sub-head {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.p3 {
+  margin-bottom: -10px;
+  font-size: 15px;
+}
+
+.skills {
+  margin-left: -10px;
+  margin-bottom: 0px;
+}
+.skills li {
+  padding: 5px;
+  list-style: none;
+}
+.sub-react {
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  padding: 0 5px;
+  border-radius: 5px;
+  line-height: 1.8;
+  background-color: #eee;
+  font-size: 15px;
+  /* margin-top: 0; */
+}
+.p-4 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.bottom-border {
+  margin: 20px;
+  border-bottom: 1px solid black;
+}
+.fa-html5 {
+  color: #f06529;
+}
+.fa-css3-alt {
+  color: #2965f1;
+}
+.fa-js-square {
+  color: #f0db4f;
+}
+.fa-react {
+  color: #61dbfb;
+}
+.project-title {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.projectFeature-list {
+  display: flex;
+  font-size: 15px;
+}
+.ex-skills li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 2;
+}
+.ex-skills {
+  margin: 0 -45px;
+}
+#ed-sec {
+  display: flex;
+}
+#gap {
+  padding: 5px;
+}
